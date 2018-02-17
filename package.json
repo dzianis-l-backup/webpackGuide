@@ -1,0 +1,25 @@
+{
+  "name": "webpackguide",
+  "version": "1.0.0",
+  "description": "webpack guide documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DziLean/webpackGuide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DziLean/webpackGuide/issues"
+  },
+  "homepage": "https://github.com/DziLean/webpackGuide#readme",
+  "devDependencies": {
+    "lodash": "^4.17.5",
+    "webpack": "^3.11.0"
+  }
+}
