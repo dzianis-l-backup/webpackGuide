@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/DziLean/webpackGuide#readme",
   "devDependencies": {
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
     "lodash": "^4.17.5",
+    "style-loader": "^0.20.2",
     "webpack": "^3.11.0"
   }
 }
