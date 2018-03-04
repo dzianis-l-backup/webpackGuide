@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --config webpack.config.js",
-    "build": "webpack"
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,11 +24,18 @@
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.9",
     "csv-loader": "^2.1.1",
+    "eslint": "^4.18.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.2.2",
+    "express": "^4.16.2",
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
     "lodash": "^4.17.5",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-dev-server": "^2.11.1",
     "xml-loader": "^1.2.1"
   }
 }
