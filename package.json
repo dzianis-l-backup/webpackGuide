@@ -38,6 +38,8 @@
     "webpack-dev-middleware": "^2.0.5",
     "webpack-dev-server": "^2.11.1",
     "webpack-merge": "^4.1.2",
-    "xml-loader": "^1.2.1"
+    "xml-loader": "^1.2.1",
+
+    "main": "dist/webpack-numbers.js"
   }
 }
